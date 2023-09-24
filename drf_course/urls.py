@@ -2,7 +2,7 @@ from django.contrib import admin
 from django.urls import path
 from rest_framework import routers
 
-router = routers.DefaultRouter() 
+router = routers.DefaultRouter() # This automatically determining the url conf. 
 urlpatterns = router.urls
 
 
