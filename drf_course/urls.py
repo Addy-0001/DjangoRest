@@ -6,6 +6,6 @@ router = routers.DefaultRouter()
 urlpatterns = router.urls
 
 
-urlpatterns = [
+urlpatterns += [
     path('admin/', admin.site.urls),
 ]
